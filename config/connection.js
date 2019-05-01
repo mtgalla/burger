@@ -5,9 +5,14 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: "mtgalla123",
   database: "burgers_db"
 });
+
+//login: mysql -u root -p
+//then: source schema.sql
+//then: source seeds.sql
+//then: exit
 
 // Make connection.
 connection.connect(function(err) {
