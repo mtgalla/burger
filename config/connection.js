@@ -12,7 +12,8 @@ if (process.env.JAWSDB_URL){
     user: "root",
     password: "mtgalla123",
     database: "burgers_db"
-});
+  });
+};
 
 //login: mysql -u root -p
 //then: source schema.sql
