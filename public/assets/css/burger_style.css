@@ -1,7 +1,13 @@
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: rgba(212, 88, 6, 0.815)
 }
 
 .label {
@@ -19,9 +25,15 @@ li {
 }
 
 body{
-  background-color: aqua;
+  background-color:#ffc90c
+  /* background-image: url("../images/cartoon-burgerSize.png") */
   }
   
   h1{
     color: red;
+  }
+
+  p{
+    font-weight: bold;
+    color:beige;
   }
