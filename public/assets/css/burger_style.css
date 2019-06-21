@@ -1,13 +1,19 @@
-.image {
+body{
+  background-color:#ffc90c
+  /* background-image: url("../images/cartoon-burgerSize.png") */
+  }
+  
+  .image {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-li {
+  
+  li {
   padding: 5px;
   margin: 5px;
-  background: rgba(212, 88, 6, 0.815)
+  background: rgba(212, 88, 6, 0.815);
+  list-style-type: none;
 }
 
 .label {
@@ -22,18 +28,31 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  width: 100%;
 }
 
-body{
-  background-color:#ffc90c
-  /* background-image: url("../images/cartoon-burgerSize.png") */
-  }
-  
-  h1{
+input {
+  width:100%;
+}
+
+h1{
     color: red;
   }
 
   p{
     font-weight: bold;
     color:beige;
+  }
+
+   h3 {
+    text-align: center;
+  }
+
+  button{
+    background-color: #ff960c;
+    color:rgb(37, 33, 33);
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.288);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
